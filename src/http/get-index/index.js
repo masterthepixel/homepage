@@ -1,7 +1,7 @@
 const Main = require('@architect/views/main.js')
 const staticAssetsHelper = require('./static-assets-helper')
 
-// Customize your site by changing the data below
+// Customize your site by changing the data below | from begin.com
 exports.handler = async function Index () {
   let body = Main({
     /**
